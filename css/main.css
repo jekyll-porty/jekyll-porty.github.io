@@ -2,6 +2,12 @@ h1,h2,h3,h4,h5 {
     margin-top: 0;
 }
 
+h2.hed{
+  text-align:center;
+  font-size: 4.0em;
+  margin-bottom: 1.0em;
+}
+
 footer.site-footer {
     margin-top: 3.0em;
     min-height: 20em;
@@ -16,6 +22,18 @@ footer.site-footer {
 
 .imgwrap img {
     width: 100%;
+}
+
+.top-bio{
+  padding-top: 2.0em;
+  padding-bottom: 2.0em;
+}
+
+.stories{
+  background: #1A1B1A;
+  padding-top: 3.0em;
+  padding-bottom: 3.0em;
+
 }
 
 ul.awards {

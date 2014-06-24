@@ -16,50 +16,45 @@ layout: home
 
   <section class="content">
 
-    <div class="container">
+
       <section class="top-bio">
+      <div class="container">
         <div class="row">
             <div class="col-sm-2">
 
                 <div class="imgwrap">
                   <img src="//placekitten.com/200/250">
                 </div>
-
-                {% include home/contacts.html %}
-
             </div>
-            <div class="col-sm-10">
+
+            <div class="col-sm-8">
               {% include home/bio.html %}
 
+            </div>
+            <div class="col-sm-2">
+              {% include home/contacts.html %}
+            </div>
+
+        </div>
+          </div>
+
+      </section> <!-- top-bio -->
+
               <section class="stories" style="margin-top: 4.0em">
-                  <div class="row">
-                    <div class="col-sm-8">
 
-                        {% include home/stories.html %}
-
-
-
-
-                    </div>
-
-                    <div class="col-sm-4">
-                      {% include home/awards.html %}
-                    </div>
+                  <div class="container">
+                    {% include home/stories.html %}
                   </div>
 
 
+<!--  <div class="col-sm-4">
+                      {% include home/awards.html %}
+                    </div> -->
 
               </section>
 
-            </div>
-        </div>
-      </section> <!-- top-bio -->
 
-  <section class="stuff">
-    <div class="row">
 
-    </div>
-  </section>
 
 
 
